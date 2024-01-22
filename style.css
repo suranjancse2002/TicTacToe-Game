@@ -65,17 +65,17 @@ p{
 .boxtext{
     font-size: 90px;
 }
-@media (max-width : 420px){
+@media (max-width : 500px){
     .grid-container{
         background-color: black;
-        width: 350px;
-        height: 350px;
+        width: 300px;
+        height: 300px;
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(3, 1fr);
         gap: 5px;
     }
     .boxtext{
-        font-size: 60px;
+        font-size: 50px;
     }
 }
